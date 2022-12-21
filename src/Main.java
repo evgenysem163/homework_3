@@ -45,6 +45,38 @@ public class Main {
       System.out.println(" производительность машины за месяц " + oneMinute * month);
 
 
+      // school
+      int dye = 120;
+      int white = 2;
+      int brown = 4;
+      int oneClass = white + brown;
+      int totalСlasses = dye / oneClass;
+//      System.out.println(totalСlasses);
+      int whiteClass = totalСlasses * white;
+      int brownClass = totalСlasses * brown;
+      System.out.println("В школе, где " + totalСlasses + " классов, нужно " + whiteClass + " банок белой краски и " + brownClass + " банок коричневой краски");
+
+      double bananas = 5 * 80;
+//      System.out.println(bananas);
+      double milk  = 210;
+      double iceCream = 200;
+      double rawEggs = 4 * 70;
+      double weight = milk + bananas + iceCream + rawEggs ;
+      System.out.println( " в граммах " + weight);
+      System.out.println(" в килограммах " + weight / 1000);
+
+      int weightKg = 7 * 1000;
+      int conditionOne = weightKg / 250;
+      int conditionTwo = weightKg / 500;
+      System.out.println("спортсмен будет терять в первом условии " + conditionOne  + " в день ");
+      System.out.println("спортсмен будет терять во втором условии " + conditionTwo + " в день ");
+      System.out.println("чтобы добиться результата похудения спортсменну может потребоваться " + (conditionOne + conditionTwo)  / 2   + " дней " );
+
+
+//
+
+
+
 
 
 
