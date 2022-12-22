@@ -72,12 +72,33 @@ public class Main {
       System.out.println("спортсмен будет терять во втором условии " + conditionTwo + " в день ");
       System.out.println("чтобы добиться результата похудения спортсменну может потребоваться " + (conditionOne + conditionTwo)  / 2   + " дней " );
 
+       int masha = 67760;
+       int denis = 83690;
+       int kristina = 76230;
+      double masha1  = masha * 12;
+      double denis1 = denis * 12;
+      double kristina1 = kristina * 12;
+      System.out.println("Зарплата Mаши  в год  до повышения " + masha1);
+      System.out.println("Зарплата Дениса в год до повышения " + denis1);
+      System.out.println("Зарплата Кристины в год до повышения " + kristina1);
 
-//
+       float x = 1.1f;
+       double x1 = x * masha;
+      double x2 = x * denis;
+      double x3 = x * kristina;
+
+      double monthMasha  = x1 * 12;
+      double monthDenis = x2 * 12;
+      double monthKristina = x3 * 12;
+
+      System.out.println("Маша теперь получает " + x1 + " рублей Годовой доход вырос на " + monthMasha + " рублей ");
+      System.out.println("Денис теперь получает " + x2 + " рублей. Годовой доход выросв на " + monthDenis + " рублей ");
+      System.out.println("Кристина теперь получает " + x3 + " рублей. Годовой доход вырос на " + monthKristina + " рублей ");
 
 
-
-
+      System.out.println("разница между годовым доходом с нынешней зарплатой и после повышения " + (monthMasha - masha1));
+      System.out.println("разница между годовым доходом с нынешней зарплатой и после повышения " + (monthDenis - denis1));
+      System.out.println("разница между годовым доходом с нынешней зарплатой и после повышения " + (monthKristina - kristina1));
 
 
 
